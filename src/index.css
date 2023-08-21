@@ -8,5 +8,19 @@
   font-family: 'Ubuntu', sans-serif;
   /* background-color: black; */
 
+}
 
+::-webkit-scrollbar {
+  background-color: #8c0327a9;
+  width: 5px; 
+
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0a2ab9;
+
+}
+
+
+::-webkit-scrollbar-button {
+  display: none; 
 }
