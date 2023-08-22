@@ -6,8 +6,12 @@
   /* font-family: 'Great Vibes', cursive; */
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Ubuntu', sans-serif;
-  /* background-color: black; */
+  background-color: #717171;
 
+}
+
+img , h1 , section ,article,div,span, strong{
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar {

@@ -14,16 +14,16 @@ export const Header = styled.header`
   position: relative;
   height: 80vh;
   margin: 0 auto;
+  background-color:transparent;
   & img {
     position: absolute;
     z-index: 1;
-    width: 50px;
     left: 0em;
     height: 82vh;
     width: auto;
     padding: 1em;
-    border-bottom: solid 1px ${colors.light};
-    border-left: solid 1px ${colors.light};
+    /* border-bottom: solid 1px ${colors.light} ; */
+    /* border-left: solid 1px ${colors.light}; */
   }
   &::after {
     ${Elemts}
@@ -115,6 +115,7 @@ export const Links = styled(Link)`
 export const Section = styled.section`
   ${ComunStyles}
   flex-direction:column;
+  background-color:transparent;
 
   & > h1 {
     ${ComunStyles}
@@ -130,6 +131,8 @@ export const Section = styled.section`
       color: ${colors.complement};
       font-size: 3rem;
       font-family: "Great Vibes", cursive;
+      background-color:transparent;
+
     }
   }
   & > div {
@@ -139,7 +142,9 @@ export const Section = styled.section`
     font-size: 15px;
     display: flex;
     align-items: center;
+    background-color:transparent;
     gap: 2em;
+    
     & strong {
       color: ${colors.primary};
       font-size: 2rem;
